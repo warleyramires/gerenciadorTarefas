@@ -50,7 +50,8 @@ export default function TarefaList(){
                             <p>{tarefa.descricao}</p>
                             <p>{tarefa.concluida ? 'Concluída' : 'Pendente'}</p>
                         </div>
-                        {!tarefa.concluida && (
+                       <div className="ml-5">
+                       {!tarefa.concluida && (
                             <Button 
                                 variant="success" 
                                 className="ml-3"
@@ -66,6 +67,7 @@ export default function TarefaList(){
                         >
                             Excluir
                         </Button>
+                       </div>
                     </ListGroupItem>
                 ))}
             </ListGroup>
