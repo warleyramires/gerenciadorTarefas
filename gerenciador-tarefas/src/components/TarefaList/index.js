@@ -57,7 +57,7 @@ export default function TarefaList(){
                                 className="ml-3"
                                 onClick={() => marcarComoConcluida(tarefa.id)}
                             >
-                                Marcar como Concluída
+                                Marcar Como Concluída
                             </Button>
                         )}
                         <Button 
